@@ -6,6 +6,7 @@
     --secondary-font: #757575;
     --adr-color: rgba(255, 255, 255, 0.6);
     --bgc-color: #FFFFFF;
+    --logo-black-color:#000000;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -26,7 +27,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;  
-    color: #000000;
+    color: var(--logo-black-color);
 }
 .logo-web{
     color: var(--accent-color);
@@ -50,6 +51,9 @@ body{
 .address-item:focus,
 .address-item:hover {
     color: var(--accent-color);
+}
+.menu-link.active{
+    color:var(--accent-color);
 }
 /* ========SECTION======= */
 .modal-btn {
