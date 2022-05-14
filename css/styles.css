@@ -7,6 +7,8 @@
     --adr-color: rgba(255, 255, 255, 0.6);
     --bgc-color: #FFFFFF;
     --logo-black-color:#000000;
+    --secondary-bgc-color: #2F303A;
+    --third-bgc-color: #F5F4FA;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -78,6 +80,10 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.hero,
+.page-footer{
+    background-color: var(--secondary-bgc-color);
+}
 .subtitle{
     font-weight: 700;
     font-size: 36px;
@@ -97,6 +103,10 @@ body{
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+.team,
+.portfolio-btn{
+    background-color: var(--third-bgc-color);
 }
 .team-title{
     font-weight: 500;
@@ -134,6 +144,7 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--main-font);
 }
 .portfolio-description{
     font-size: 16px;
